@@ -1,6 +1,3 @@
-# TemperatureMonitor
-A tool for monitoring CPU and GPU temperatures on Linux, with alerts!
-
 # Temperature Monitor
 
 A small GTKmm‑based utility that displays your system’s CPU core/package temperatures, NVIDIA GPU temperature, and battery status in a desktop window. Includes built‑in alerts if CPU exceeds 100 °C or GPU exceeds 75 °C.
