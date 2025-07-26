@@ -48,12 +48,9 @@ A small GTKmm‑based utility that displays your system’s CPU core/package tem
 Clone or copy the source into a directory, then:
 
 ```bash
-g++ -std=c++17 -Wall -Wextra -o temperature_monitor main.cpp \
+g++ -std=c++17 -Wall -Wextra -o temperature_monitor tempmonitor.c++ \
     $(pkg-config --cflags --libs gtkmm-3.0)
 ```
-
-- Replace `main.cpp` with any additional `.cpp` files you add.  
-- Use `-std=c++14` or `-std=c++11` if needed.
 
 ---
 
